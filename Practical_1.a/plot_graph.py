@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data from CSV
-data = pd.read_csv('linear_search_times.csv')
+data = pd.read_csv('n_vs_t.csv')
 
 # Plot time vs n
 plt.plot(data['n'], data['TimeTaken(seconds)'], marker='o', linestyle='-', color='blue')
